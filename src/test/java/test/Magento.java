@@ -36,8 +36,8 @@ Select role=new Select(driver.findElement(By.id("individual_role")));
 role.selectByValue("technical/developer");
 
 driver.findElement(By.id("country")).sendKeys("United States");
-driver.findElement(By.id("password")).sendKeys("hello123");
-driver.findElement(By.id("password-confirmation")).sendKeys("hello123");
+driver.findElement(By.id("password")).sendKeys("hello234");
+driver.findElement(By.id("password-confirmation")).sendKeys("hello234");
 
 driver.switchTo().frame(driver.findElement(By.xpath("//*[@id=\"recaptcha-f979c2ff515d921c34af9bd2aee8ef076b719d03\"]/div/div/iframe")));
 driver.findElement(By.className("recaptcha-checkbox-border")).click();
